@@ -1,0 +1,14 @@
+version: '2.1'
+
+services:
+
+  react-web-starter-kit:
+    container_name: react-web-starter-kit
+    build:
+      context: .
+      args:
+        - NODE_ENV=development
+    volumes:
+      - './src:/usr/src/app/src'
+    ports:
+      - '3000:3000' # expose ports - HOST:CONTAINER
