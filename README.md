@@ -16,6 +16,7 @@ this starter kit has the following:
 ## Todo
 Add in a popup alert/dialog system to NavAndHeader
 Add a support function that api services can use to append auth info to all requests
+In NavAndHeader, externalize the account menu so it is data driven like the left nav bar
 
 ## How to use
 When you first download and anytime you make a change to `package.json`, build the docker image:
